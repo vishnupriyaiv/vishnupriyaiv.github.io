@@ -1,0 +1,67 @@
+*{
+	margin: 0px;
+	padding:0px;
+}
+.bgimage{
+	background-image: url('imm.jpg');
+	background-size: 100% 100%;
+	width:100%;
+	height: 100vh;
+
+}
+.menu{
+	widows: 100%;
+	height: 100px;
+	background-color: rgba(0,0,0,0.5);
+}
+.leftmenu{
+	width: 25%;
+	line-height: 100px;
+	float: left;
+}
+.leftmenu h4{
+	padding-left: 20px;
+	font-weight: bold;
+	color: white;
+	font-size: 22px;
+}
+.rightmenu{
+	width: 25%;
+	height: 100px;
+	float: right;
+
+}
+.rightmenu{
+	margin-left: 20px;
+}
+.rightmenu ul li {
+	display: inline-block;
+	list-style: none;
+	font-size: 50px;
+	color: black;
+	font-weight: bold;
+	line-height: 100px;
+	margin-left: 700px;
+}
+a{
+		text-decoration: none;
+
+}
+
+
+
+.rightmenu ul li a:hover{
+		color: white!important;
+	}
+a hover{
+	color:white!important;
+}
+
+
+.text{
+	width: 100%;
+	margin-top: 185px;
+	text-align: center;
+	font-size: 30px;
+
+}
