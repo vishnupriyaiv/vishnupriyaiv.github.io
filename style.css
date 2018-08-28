@@ -25,9 +25,11 @@
 	font-weight: bold;
 	color: white;
 	font-size: 22px;
+	float: left;
 }
-.rightmenu h5{
+.rightmenu{
 	padding-right: 20px;
+	font-weight: bold;
 	width: 25%;
 	height: 100px;
 	float: right;
@@ -58,7 +60,9 @@ a{
 a hover{
 	color:white!important;
 }
-
+.leftmenu:hover{
+		color: white!important;
+	}
 
 .text{
 	width: 100%;
