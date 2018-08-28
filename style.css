@@ -27,6 +27,13 @@
 	font-size: 22px;
 	float: left;
 }
+.leftmenu h3{
+	padding-left: 20px;
+	font-weight: bold;
+	color: white;
+	font-size: 22px;
+	float: left;
+}
 .rightmenu{
 	padding-right: 20px;
 	font-weight: bold;
