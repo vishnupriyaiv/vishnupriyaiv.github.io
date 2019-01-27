@@ -16,6 +16,7 @@
 	background-color: rgba(0,0,0,0.5);
 }
 .leftmenu{
+	padding-left: 20px;
 	width: 25%;
 	line-height: 100px;
 	float: left;
