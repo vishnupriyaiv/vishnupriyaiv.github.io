@@ -1,32 +1,105 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>welcome</title>
-	<link rel="stylesheet" type="text/css" href="style2.css">
+	<title>MY WEBSITE</title>
+	<style>
+		*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+body
+{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(xx.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.main-nav{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+
+}
+.main-nav li {
+    display: inline-block;
+} 
+
+.main-nav li a
+  {
+  	color: white;
+  	text-decoration: none;
+  	padding: 5px 20px;
+  	font-family: "Roboto", sans-serif;
+  	font-size: 15px;
+  }
+.main-nav li a:hover
+{
+	border: 1px solid white;
+}
+.hero{
+	position: absolute;
+	width: 1200px;
+	margin-left: 0px;
+	margin-top: 300px;
+}
+h1{
+	color:white;
+	text-transform: uppercase;
+	font-size: 50px;
+	text-align: center;
+	margin-top: px;
+    
+}
+
+.button
+{
+ margin-top:30px;
+ margin-left: 525px;
+
+
+
+}
+.btn
+{       border:1px solid white;
+        color: white;
+  	text-decoration: none;
+  	padding: 5px 20px;
+  	font-family: "Roboto", sans-serif;
+  	font-size: 15px;
+       
+        text-transform:uppercase;
+}
+
+
+	</style>
 </head>
 <body>
-	<div class="bgimage">
-		<div class="menu">
-			<div class="leftmenu">
-			<h1>VISHNUPRIYA IV</h1><br>
-			<img src="7888.JPG" width="200" height="200"/><br>
-			<h2>MY WEBPAGE</h2>      <a href="first.html"style="color: white">click to view</a>
-			<div class="text">
-			   	<h1>EALLISTO PRIVATE LTD</h1>
-			   	<h4>INTERN OF EALLISTO</h4>
-			   	<h4>STUDENT OF MESCE,KUTTIPPURAM</h4>
-			   	
-			   </div>
+	<header>
+		<div class="row">
+		<ul class="main-nav">
+			        <li><a href="home.pdf"style="color:black">HOME</a></li>
+					<li><a href="tasksheet.html" style="color:black">TASKS</a></li>
+					<li><a href="resume.pdf"style="color:black">ABOUT</a></li>
+					<li><a href="contact.pdf"style="color:black">CONTACTS</a></li>
 
-			   
-			   	
-			   </div>
+          
+          </ul>
+		</div>
+		<div class="hero">
+				<h1>welcome to VISHNUPRIYA'S WORLD</h1>
+				<div class="button">
+                <a href="first.html" class="btn">Click Here</a>
+             </div>
+				
+				</div>
 
-            </div>
+
 		
-	</div>
+	    
 
-	
 
+	</header>
 </body>
 </html>
